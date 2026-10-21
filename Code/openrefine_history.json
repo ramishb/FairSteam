@@ -15287,5 +15287,905 @@
     },
     "shareNewTopics": false,
     "description": "Match item 바이오웨어 (Q219758) for cells containing \"BioWare\" in column developer 1"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "developer 1 IRI",
+    "expression": "grel:value.replace(\"/2025-2026/\", \"/2026/\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column developer 1 IRI using expression grel:value.replace(\"/2025-2026/\", \"/2026/\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "developer 2 IRI",
+    "expression": "grel:value.replace(\"/2025-2026/\", \"/2026/\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column developer 2 IRI using expression grel:value.replace(\"/2025-2026/\", \"/2026/\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "developer 3 IRI",
+    "expression": "grel:value.replace(\"/2025-2026/\", \"/2026/\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column developer 3 IRI using expression grel:value.replace(\"/2025-2026/\", \"/2026/\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "developer 4 IRI",
+    "expression": "grel:value.replace(\"/2025-2026/\", \"/2026/\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column developer 4 IRI using expression grel:value.replace(\"/2025-2026/\", \"/2026/\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "publisher 1 IRI",
+    "expression": "grel:value.replace(\"/2025-2026/\", \"/2026/\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column publisher 1 IRI using expression grel:value.replace(\"/2025-2026/\", \"/2026/\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "publisher 2 IRI",
+    "expression": "grel:value.replace(\"/2025-2026/\", \"/2026/\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column publisher 2 IRI using expression grel:value.replace(\"/2025-2026/\", \"/2026/\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "publisher 3 IRI",
+    "expression": "grel:value.replace(\"/2025-2026/\", \"/2026/\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column publisher 3 IRI using expression grel:value.replace(\"/2025-2026/\", \"/2026/\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "publisher 4 IRI",
+    "expression": "grel:value.replace(\"/2025-2026/\", \"/2026/\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column publisher 4 IRI using expression grel:value.replace(\"/2025-2026/\", \"/2026/\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "label indie",
+    "expression": "grel:value.replace(\"/2025-2026/\", \"/2026/\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column label indie using expression grel:value.replace(\"/2025-2026/\", \"/2026/\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "label free to play",
+    "expression": "grel:value.replace(\"/2025-2026/\", \"/2026/\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column label free to play using expression grel:value.replace(\"/2025-2026/\", \"/2026/\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "label early access",
+    "expression": "grel:value.replace(\"/2025-2026/\", \"/2026/\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column label early access using expression grel:value.replace(\"/2025-2026/\", \"/2026/\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "label violent",
+    "expression": "grel:value.replace(\"/2025-2026/\", \"/2026/\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column label violent using expression grel:value.replace(\"/2025-2026/\", \"/2026/\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "label nudity",
+    "expression": "grel:value.replace(\"/2025-2026/\", \"/2026/\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column label nudity using expression grel:value.replace(\"/2025-2026/\", \"/2026/\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "label gore",
+    "expression": "grel:value.replace(\"/2025-2026/\", \"/2026/\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column label gore using expression grel:value.replace(\"/2025-2026/\", \"/2026/\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "label sexual",
+    "expression": "grel:value.replace(\"/2025-2026/\", \"/2026/\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column label sexual using expression grel:value.replace(\"/2025-2026/\", \"/2026/\")"
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "schema": {
+      "prefixes": [
+        {
+          "name": "schema",
+          "uri": "http://schema.org/"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "wdt",
+          "uri": "http://www.wikidata.org/prop/direct/"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "steam",
+          "uri": "https://w3id.org/FAIR-course-UT/2026/group02/ont#"
+        },
+        {
+          "name": "wd",
+          "uri": "http://www.wikidata.org/entity/"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        }
+      ],
+      "baseUri": "https://w3id.org/FAIR-course-UT/2026/group02/data#",
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "columnName": "appid",
+          "expression": "\"game-\" + value",
+          "isRowNumberCell": false,
+          "links": [
+            {
+              "uri": "http://schema.org/name",
+              "curie": "schema:name",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "name",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2000/01/rdf-schema#label",
+              "curie": "rdfs:label",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "name",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://www.wikidata.org/prop/direct/P1733",
+              "curie": "wdt:P1733",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "appid",
+                "expression": "value",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://schema.org/datePublished",
+              "curie": "schema:datePublished",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "release_date",
+                "expression": "value",
+                "valueType": "http://www.w3.org/2001/XMLSchema#date",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "https://w3id.org/FAIR-course-UT/2026/group02/ont#positiveRatings",
+              "curie": "steam:positiveRatings",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "positive_ratings",
+                "expression": "value",
+                "valueType": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "https://w3id.org/FAIR-course-UT/2026/group02/ont#negativeRatings",
+              "curie": "steam:negativeRatings",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "columnName": "negative_ratings",
+                "expression": "value",
+                "valueType": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+                "isRowNumberCell": false
+              }
+            },
+            {
+              "uri": "http://schema.org/gamePlatform",
+              "curie": "schema:gamePlatform",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "columnName": "Platform Windows",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "links": [],
+                "rdfTypes": []
+              }
+            },
+            {
+              "uri": "http://schema.org/gamePlatform",
+              "curie": "schema:gamePlatform",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "columnName": "platform mac",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "links": [],
+                "rdfTypes": []
+              }
+            },
+            {
+              "uri": "http://schema.org/gamePlatform",
+              "curie": "schema:gamePlatform",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "columnName": "platform linux",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "links": [],
+                "rdfTypes": []
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2002/07/owl#sameAs",
+              "curie": "owl:sameAs",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "columnName": "Game WikiData",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "links": [],
+                "rdfTypes": []
+              }
+            },
+            {
+              "uri": "http://www.wikidata.org/prop/direct/P178",
+              "curie": "wdt:P178",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "columnName": "developer 1 IRI",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "links": [
+                  {
+                    "uri": "http://www.w3.org/2000/01/rdf-schema#label",
+                    "curie": "rdfs:label",
+                    "target": {
+                      "nodeType": "cell-as-literal",
+                      "columnName": "developer 1",
+                      "expression": "value",
+                      "isRowNumberCell": false
+                    }
+                  }
+                ],
+                "rdfTypes": [
+                  {
+                    "uri": "http://schema.org/Organization",
+                    "curie": "schema:Organization"
+                  }
+                ]
+              }
+            },
+            {
+              "uri": "http://www.wikidata.org/prop/direct/P178",
+              "curie": "wdt:P178",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "columnName": "developer 2 IRI",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "links": [
+                  {
+                    "uri": "http://www.w3.org/2000/01/rdf-schema#label",
+                    "curie": "rdfs:label",
+                    "target": {
+                      "nodeType": "cell-as-literal",
+                      "columnName": "developer 2",
+                      "expression": "value",
+                      "isRowNumberCell": false
+                    }
+                  }
+                ],
+                "rdfTypes": [
+                  {
+                    "uri": "http://schema.org/Organization",
+                    "curie": "schema:Organization"
+                  }
+                ]
+              }
+            },
+            {
+              "uri": "http://www.wikidata.org/prop/direct/P178",
+              "curie": "wdt:P178",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "columnName": "developer 3 IRI",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "links": [
+                  {
+                    "uri": "http://www.w3.org/2000/01/rdf-schema#label",
+                    "curie": "rdfs:label",
+                    "target": {
+                      "nodeType": "cell-as-literal",
+                      "columnName": "developer 3",
+                      "expression": "value",
+                      "isRowNumberCell": false
+                    }
+                  }
+                ],
+                "rdfTypes": [
+                  {
+                    "uri": "http://schema.org/Organization",
+                    "curie": "schema:Organization"
+                  }
+                ]
+              }
+            },
+            {
+              "uri": "http://www.wikidata.org/prop/direct/P178",
+              "curie": "wdt:P178",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "columnName": "developer 4 IRI",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "links": [
+                  {
+                    "uri": "http://www.w3.org/2000/01/rdf-schema#label",
+                    "curie": "rdfs:label",
+                    "target": {
+                      "nodeType": "cell-as-literal",
+                      "columnName": "developer 4",
+                      "expression": "value",
+                      "isRowNumberCell": false
+                    }
+                  }
+                ],
+                "rdfTypes": [
+                  {
+                    "uri": "http://schema.org/Organization",
+                    "curie": "schema:Organization"
+                  }
+                ]
+              }
+            },
+            {
+              "uri": "http://www.wikidata.org/prop/direct/P178",
+              "curie": "wdt:P178",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "columnName": "developer 5 IRI",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "links": [
+                  {
+                    "uri": "http://www.w3.org/2000/01/rdf-schema#label",
+                    "curie": "rdfs:label",
+                    "target": {
+                      "nodeType": "cell-as-literal",
+                      "columnName": "developer 5",
+                      "expression": "value",
+                      "isRowNumberCell": false
+                    }
+                  }
+                ],
+                "rdfTypes": [
+                  {
+                    "uri": "http://schema.org/Organization",
+                    "curie": "schema:Organization"
+                  }
+                ]
+              }
+            },
+            {
+              "uri": "http://www.wikidata.org/prop/direct/P178",
+              "curie": "wdt:P178",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "columnName": "developer 6 IRI",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "links": [
+                  {
+                    "uri": "http://www.w3.org/2000/01/rdf-schema#label",
+                    "curie": "rdfs:label",
+                    "target": {
+                      "nodeType": "cell-as-literal",
+                      "columnName": "developer 6",
+                      "expression": "value",
+                      "isRowNumberCell": false
+                    }
+                  }
+                ],
+                "rdfTypes": [
+                  {
+                    "uri": "http://schema.org/Organization",
+                    "curie": "schema:Organization"
+                  }
+                ]
+              }
+            },
+            {
+              "uri": "http://www.wikidata.org/prop/direct/P178",
+              "curie": "wdt:P178",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "columnName": "developer 7 IRI",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "links": [
+                  {
+                    "uri": "http://www.w3.org/2000/01/rdf-schema#label",
+                    "curie": "rdfs:label",
+                    "target": {
+                      "nodeType": "cell-as-literal",
+                      "columnName": "developer 7",
+                      "expression": "value",
+                      "isRowNumberCell": false
+                    }
+                  }
+                ],
+                "rdfTypes": [
+                  {
+                    "uri": "http://schema.org/Organization",
+                    "curie": "schema:Organization"
+                  }
+                ]
+              }
+            },
+            {
+              "uri": "http://schema.org/publisher",
+              "curie": "schema:publisher",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "columnName": "publisher 1 IRI",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "links": [
+                  {
+                    "uri": "http://www.w3.org/2000/01/rdf-schema#label",
+                    "curie": "rdfs:label",
+                    "target": {
+                      "nodeType": "cell-as-literal",
+                      "columnName": "publisher 1",
+                      "expression": "value",
+                      "isRowNumberCell": false
+                    }
+                  }
+                ],
+                "rdfTypes": [
+                  {
+                    "uri": "http://schema.org/Organization",
+                    "curie": "schema:Organization"
+                  }
+                ]
+              }
+            },
+            {
+              "uri": "http://schema.org/publisher",
+              "curie": "schema:publisher",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "columnName": "publisher 2 IRI",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "links": [
+                  {
+                    "uri": "http://www.w3.org/2000/01/rdf-schema#label",
+                    "curie": "rdfs:label",
+                    "target": {
+                      "nodeType": "cell-as-literal",
+                      "columnName": "publisher 2",
+                      "expression": "value",
+                      "isRowNumberCell": false
+                    }
+                  }
+                ],
+                "rdfTypes": [
+                  {
+                    "uri": "http://schema.org/Organization",
+                    "curie": "schema:Organization"
+                  }
+                ]
+              }
+            },
+            {
+              "uri": "http://schema.org/publisher",
+              "curie": "schema:publisher",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "columnName": "publisher 3 IRI",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "links": [
+                  {
+                    "uri": "http://www.w3.org/2000/01/rdf-schema#label",
+                    "curie": "rdfs:label",
+                    "target": {
+                      "nodeType": "cell-as-literal",
+                      "columnName": "publisher 3",
+                      "expression": "value",
+                      "isRowNumberCell": false
+                    }
+                  }
+                ],
+                "rdfTypes": [
+                  {
+                    "uri": "http://schema.org/Organization",
+                    "curie": "schema:Organization"
+                  }
+                ]
+              }
+            },
+            {
+              "uri": "http://schema.org/publisher",
+              "curie": "schema:publisher",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "columnName": "publisher 4 IRI",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "links": [
+                  {
+                    "uri": "http://www.w3.org/2000/01/rdf-schema#label",
+                    "curie": "rdfs:label",
+                    "target": {
+                      "nodeType": "cell-as-literal",
+                      "columnName": "publisher 4",
+                      "expression": "value",
+                      "isRowNumberCell": false
+                    }
+                  }
+                ],
+                "rdfTypes": [
+                  {
+                    "uri": "http://schema.org/Organization",
+                    "curie": "schema:Organization"
+                  }
+                ]
+              }
+            },
+            {
+              "uri": "http://schema.org/genre",
+              "curie": "schema:genre",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "columnName": "genre action",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "links": [],
+                "rdfTypes": []
+              }
+            },
+            {
+              "uri": "http://schema.org/genre",
+              "curie": "schema:genre",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "columnName": "genre adventure",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "links": [],
+                "rdfTypes": []
+              }
+            },
+            {
+              "uri": "http://schema.org/genre",
+              "curie": "schema:genre",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "columnName": "genre rpg",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "links": [],
+                "rdfTypes": []
+              }
+            },
+            {
+              "uri": "http://schema.org/genre",
+              "curie": "schema:genre",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "columnName": "genre strategy",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "links": [],
+                "rdfTypes": []
+              }
+            },
+            {
+              "uri": "http://schema.org/genre",
+              "curie": "schema:genre",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "columnName": "genre simulation",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "links": [],
+                "rdfTypes": []
+              }
+            },
+            {
+              "uri": "http://schema.org/genre",
+              "curie": "schema:genre",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "columnName": "genre casual",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "links": [],
+                "rdfTypes": []
+              }
+            },
+            {
+              "uri": "http://schema.org/genre",
+              "curie": "schema:genre",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "columnName": "genre racing",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "links": [],
+                "rdfTypes": []
+              }
+            },
+            {
+              "uri": "http://schema.org/genre",
+              "curie": "schema:genre",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "columnName": "genre sports",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "links": [],
+                "rdfTypes": []
+              }
+            },
+            {
+              "uri": "http://schema.org/genre",
+              "curie": "schema:genre",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "columnName": "genre mmo",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "links": [],
+                "rdfTypes": []
+              }
+            },
+            {
+              "uri": "https://w3id.org/FAIR-course-UT/2026/group02/ont#storeLabel",
+              "curie": "steam:storeLabel",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "columnName": "label indie",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "links": [],
+                "rdfTypes": []
+              }
+            },
+            {
+              "uri": "https://w3id.org/FAIR-course-UT/2026/group02/ont#storeLabel",
+              "curie": "steam:storeLabel",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "columnName": "label free to play",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "links": [],
+                "rdfTypes": []
+              }
+            },
+            {
+              "uri": "https://w3id.org/FAIR-course-UT/2026/group02/ont#storeLabel",
+              "curie": "steam:storeLabel",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "columnName": "label early access",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "links": [],
+                "rdfTypes": []
+              }
+            },
+            {
+              "uri": "https://w3id.org/FAIR-course-UT/2026/group02/ont#storeLabel",
+              "curie": "steam:storeLabel",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "columnName": "label violent",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "links": [],
+                "rdfTypes": []
+              }
+            },
+            {
+              "uri": "https://w3id.org/FAIR-course-UT/2026/group02/ont#storeLabel",
+              "curie": "steam:storeLabel",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "columnName": "label nudity",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "links": [],
+                "rdfTypes": []
+              }
+            },
+            {
+              "uri": "https://w3id.org/FAIR-course-UT/2026/group02/ont#storeLabel",
+              "curie": "steam:storeLabel",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "columnName": "label gore",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "links": [],
+                "rdfTypes": []
+              }
+            },
+            {
+              "uri": "https://w3id.org/FAIR-course-UT/2026/group02/ont#storeLabel",
+              "curie": "steam:storeLabel",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "columnName": "label sexual",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "links": [],
+                "rdfTypes": []
+              }
+            },
+            {
+              "uri": "http://schema.org/offers",
+              "curie": "schema:offers",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "columnName": "appid",
+                "expression": "\"offer-\" + value",
+                "isRowNumberCell": false,
+                "links": [
+                  {
+                    "uri": "http://schema.org/price",
+                    "curie": "schema:price",
+                    "target": {
+                      "nodeType": "cell-as-literal",
+                      "columnName": "price",
+                      "expression": "value",
+                      "valueType": "http://www.w3.org/2001/XMLSchema#decimal",
+                      "isRowNumberCell": false
+                    }
+                  },
+                  {
+                    "uri": "http://schema.org/priceCurrency",
+                    "curie": "schema:priceCurrency",
+                    "target": {
+                      "nodeType": "literal",
+                      "value": "GBP"
+                    }
+                  }
+                ],
+                "rdfTypes": [
+                  {
+                    "uri": "http://schema.org/Offer",
+                    "curie": "schema:Offer"
+                  }
+                ]
+              }
+            }
+          ],
+          "rdfTypes": [
+            {
+              "uri": "https://w3id.org/FAIR-course-UT/2026/group02/ont#SteamGame",
+              "curie": "steam:SteamGame"
+            }
+          ]
+        }
+      ]
+    },
+    "description": "Save RDF schema skeleton"
   }
 ]

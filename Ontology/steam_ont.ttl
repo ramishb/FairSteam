@@ -1,4 +1,4 @@
-@prefix : <https://w3id.org/FAIR-course-UT/2025-2026/group02/ont#> .
+@prefix : <https://w3id.org/FAIR-course-UT/2026/group02/ont#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix wdt: <http://www.wikidata.org/prop/direct/> .
@@ -7,9 +7,9 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix schema: <http://schema.org/> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
-@base <https://w3id.org/FAIR-course-UT/2025-2026/group02/ont#> .
+@base <https://w3id.org/FAIR-course-UT/2026/group02/ont#> .
 
-<https://w3id.org/FAIR-course-UT/2025-2026/group02/ont> rdf:type owl:Ontology ;
+<https://w3id.org/FAIR-course-UT/2026/group02/ont> rdf:type owl:Ontology ;
                                                          dcterms:creator "Ramish Bhutto" ;
                                                          dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
                                                          rdfs:comment "Mini-ontology for the FAIRified Steam Store Games dataset. It defines the Steam-specific terms (Steam game, store labels, rating counts) and reuses schema.org and Wikidata for everything else."@en ;
@@ -53,7 +53,7 @@ wdt:P178 rdf:type owl:ObjectProperty ;
          rdfs:label "Game Developer"@en .
 
 
-###  https://w3id.org/FAIR-course-UT/2025-2026/group02/ont#storeLabel
+###  https://w3id.org/FAIR-course-UT/2026/group02/ont#storeLabel
 :storeLabel rdf:type owl:ObjectProperty ;
             rdfs:subPropertyOf schema:genre ;
             rdfs:domain :SteamGame ;
@@ -91,7 +91,7 @@ wdt:P1733 rdf:type owl:DatatypeProperty ;
           rdfs:label "Steam app ID"@en .
 
 
-###  https://w3id.org/FAIR-course-UT/2025-2026/group02/ont#negativeRatings
+###  https://w3id.org/FAIR-course-UT/2026/group02/ont#negativeRatings
 :negativeRatings rdf:type owl:DatatypeProperty ;
                  rdfs:subPropertyOf :userRatingCount ;
                  rdf:type owl:FunctionalProperty ;
@@ -101,7 +101,7 @@ wdt:P1733 rdf:type owl:DatatypeProperty ;
                  rdfs:label "negative ratings"@en .
 
 
-###  https://w3id.org/FAIR-course-UT/2025-2026/group02/ont#positiveRatings
+###  https://w3id.org/FAIR-course-UT/2026/group02/ont#positiveRatings
 :positiveRatings rdf:type owl:DatatypeProperty ;
                  rdfs:subPropertyOf :userRatingCount ;
                  rdf:type owl:FunctionalProperty ;
@@ -111,7 +111,7 @@ wdt:P1733 rdf:type owl:DatatypeProperty ;
                  rdfs:label "positive ratings"@en .
 
 
-###  https://w3id.org/FAIR-course-UT/2025-2026/group02/ont#userRatingCount
+###  https://w3id.org/FAIR-course-UT/2026/group02/ont#userRatingCount
 :userRatingCount rdf:type owl:DatatypeProperty ;
                  rdfs:domain :SteamGame ;
                  rdfs:range xsd:nonNegativeInteger ;
@@ -135,7 +135,7 @@ schema:Organization rdf:type owl:Class .
 schema:VideoGame rdf:type owl:Class .
 
 
-###  https://w3id.org/FAIR-course-UT/2025-2026/group02/ont#SteamGame
+###  https://w3id.org/FAIR-course-UT/2026/group02/ont#SteamGame
 :SteamGame rdf:type owl:Class ;
            rdfs:subClassOf schema:VideoGame ,
                            [ rdf:type owl:Restriction ;
@@ -186,7 +186,7 @@ schema:VideoGame rdf:type owl:Class .
            rdfs:label "Steam game"@en .
 
 
-###  https://w3id.org/FAIR-course-UT/2025-2026/group02/ont#SteamStoreLabel
+###  https://w3id.org/FAIR-course-UT/2026/group02/ont#SteamStoreLabel
 :SteamStoreLabel rdf:type owl:Class ;
                  rdfs:label "Steam Store Label"@en .
 
@@ -195,7 +195,7 @@ schema:VideoGame rdf:type owl:Class .
 #    Individuals
 #################################################################
 
-###  https://w3id.org/FAIR-course-UT/2025-2026/group02/ont#EarlyAccess
+###  https://w3id.org/FAIR-course-UT/2026/group02/ont#EarlyAccess
 :EarlyAccess rdf:type owl:NamedIndividual ,
                       :SteamStoreLabel ;
              rdfs:comment "Steam store label for development status, not a gameplay genre."@en ;
@@ -203,7 +203,7 @@ schema:VideoGame rdf:type owl:Class .
              rdfs:seeAlso <http://www.wikidata.org/entity/Q17042291> .
 
 
-###  https://w3id.org/FAIR-course-UT/2025-2026/group02/ont#FreetoPlay
+###  https://w3id.org/FAIR-course-UT/2026/group02/ont#FreetoPlay
 :FreetoPlay rdf:type owl:NamedIndividual ,
                      :SteamStoreLabel ;
             rdfs:comment "Steam store label for business model, not a gameplay genre."@en ;
@@ -211,7 +211,7 @@ schema:VideoGame rdf:type owl:Class .
             rdfs:seeAlso <http://www.wikidata.org/entity/Q1414510> .
 
 
-###  https://w3id.org/FAIR-course-UT/2025-2026/group02/ont#Gore
+###  https://w3id.org/FAIR-course-UT/2026/group02/ont#Gore
 :Gore rdf:type owl:NamedIndividual ,
                :SteamStoreLabel ;
       rdfs:comment "Steam content descriptor, not a gameplay genre."@en ;
@@ -219,7 +219,7 @@ schema:VideoGame rdf:type owl:Class .
       rdfs:seeAlso <http://www.wikidata.org/entity/Q60316461> .
 
 
-###  https://w3id.org/FAIR-course-UT/2025-2026/group02/ont#Indie
+###  https://w3id.org/FAIR-course-UT/2026/group02/ont#Indie
 :Indie rdf:type owl:NamedIndividual ,
                 :SteamStoreLabel ;
        rdfs:comment "Steam store label for games by independent developers, not a gameplay genre."@en ;
@@ -227,7 +227,7 @@ schema:VideoGame rdf:type owl:Class .
        rdfs:seeAlso <http://www.wikidata.org/entity/Q2762504> .
 
 
-###  https://w3id.org/FAIR-course-UT/2025-2026/group02/ont#Nudity
+###  https://w3id.org/FAIR-course-UT/2026/group02/ont#Nudity
 :Nudity rdf:type owl:NamedIndividual ,
                  :SteamStoreLabel ;
         rdfs:comment "Steam content descriptor, not a gameplay genre."@en ;
@@ -235,14 +235,14 @@ schema:VideoGame rdf:type owl:Class .
         rdfs:seeAlso <http://www.wikidata.org/entity/Q60324383> .
 
 
-###  https://w3id.org/FAIR-course-UT/2025-2026/group02/ont#SexualContent
+###  https://w3id.org/FAIR-course-UT/2026/group02/ont#SexualContent
 :SexualContent rdf:type owl:NamedIndividual ,
                         :SteamStoreLabel ;
                rdfs:comment "Steam content descriptor, not a gameplay genre."@en ;
                rdfs:label "Sexual Content"@en .
 
 
-###  https://w3id.org/FAIR-course-UT/2025-2026/group02/ont#Violent
+###  https://w3id.org/FAIR-course-UT/2026/group02/ont#Violent
 :Violent rdf:type owl:NamedIndividual ,
                   :SteamStoreLabel ;
          rdfs:comment "Steam content descriptor, not a gameplay genre."@en ;

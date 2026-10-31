@@ -9,7 +9,7 @@
   dcterms:title "Steam Store Games – top 1000 (FAIRified)";
   dcterms:hasVersion "1.0";
   <https://w3id.org/fdp/fdp-o#metadataIssued> "2026-10-06T07:56:25.677902207Z"^^xsd:dateTime;
-  <https://w3id.org/fdp/fdp-o#metadataModified> "2026-10-21T12:24:41.700584663Z"^^xsd:dateTime;
+  <https://w3id.org/fdp/fdp-o#metadataModified> "2026-10-31T19:03:59.939887269Z"^^xsd:dateTime;
   dcterms:license <https://creativecommons.org/licenses/by/4.0/>;
   dcterms:description "FAIRified subset of the Steam Store Games by Nik Davis: the 1000 PC games with the most user ratings on Steam, with release date, developer, publisher, platforms, genres, price in British pounds (GBP) and the numbers of positive and negative user reviews. The source data was collected from the Steam Store and APIs around May 2019, data is a 2019 snapshot. Games, companies, platforms and genres are linked to Wikidata; the data uses schema.org and a small Steam ontology.";
   dcterms:conformsTo <https://w3id.org/FAIR-course-UT/2026/group02/ont>, <http://localhost/profile/2f08228e-1789-40f8-84cd-28e3288c3604>,
@@ -31,8 +31,8 @@
   dcat:theme <http://www.wikidata.org/entity/Q7889>;
   dcat:distribution <http://localhost/distribution/60a4cdf9-2e4b-43c6-93ac-9c2e4cb23b4a>,
     <http://localhost/distribution/4764fbfe-3e72-4fe1-9884-63f6e5974391>;
-  <http://www.w3.org/ns/prov#wasDerivedFrom> <https://www.kaggle.com/datasets/nikdavis/steam-store-games>;
-  dcterms:bibliographicCitation "Nik Davis (2019). Steam Store Games (Clean dataset), version 3. Kaggle. https://www.kaggle.com/datasets/nikdavis/steam-store-games. Licensed under CC BY 4.0." .
+  dcterms:bibliographicCitation "Nik Davis (2019). Steam Store Games (Clean dataset), version 3. Kaggle. https://www.kaggle.com/datasets/nikdavis/steam-store-games. Licensed under CC BY 4.0.";
+  dcterms:source <https://www.kaggle.com/datasets/nikdavis/steam-store-games> .
 
 <http://localhost/dataset/e7abb709-d6a6-4ef5-8f05-34548ed5a917#identifier> a <http://purl.org/spar/datacite/Identifier>;
   dcterms:identifier "http://localhost/dataset/e7abb709-d6a6-4ef5-8f05-34548ed5a917" .

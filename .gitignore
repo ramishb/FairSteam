@@ -3,3 +3,6 @@ CITATION.cff
 # Docker runtime data (FDP databases); docker-compose.yml and application.yml stay in the repo
 Docker/mongo/
 Docker/graphdb/
+Code/resolve_game.py
+Ontology/steam_model.svg
+Ontology/steam_class.svg

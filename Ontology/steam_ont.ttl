@@ -186,6 +186,18 @@ schema:VideoGame rdf:type owl:Class .
            rdfs:label "Steam game"@en .
 
 
+###  http://www.wikidata.org/entity/Q659563
+<http://www.wikidata.org/entity/Q659563> rdf:type owl:Class ;
+    rdfs:comment "Wikidata class 'video game genre', reused as the class of the genres in this dataset."@en ;
+    rdfs:label "video game genre"@en .
+
+
+###  http://www.wikidata.org/entity/Q9135
+<http://www.wikidata.org/entity/Q9135> rdf:type owl:Class ;
+    rdfs:comment "Wikidata class 'operating system', reused as the class of the platforms in this dataset."@en ;
+    rdfs:label "operating system"@en .
+
+
 ###  https://w3id.org/FAIR-course-UT/2026/group02/ont#SteamStoreLabel
 :SteamStoreLabel rdf:type owl:Class ;
                  rdfs:label "Steam Store Label"@en .
@@ -194,6 +206,78 @@ schema:VideoGame rdf:type owl:Class .
 #################################################################
 #    Individuals
 #################################################################
+
+###  http://www.wikidata.org/entity/Q270948
+<http://www.wikidata.org/entity/Q270948> rdf:type owl:NamedIndividual ,
+                 <http://www.wikidata.org/entity/Q659563> ;
+    rdfs:label "Action"@en .
+
+
+###  http://www.wikidata.org/entity/Q23916
+<http://www.wikidata.org/entity/Q23916> rdf:type owl:NamedIndividual ,
+                 <http://www.wikidata.org/entity/Q659563> ;
+    rdfs:label "Adventure"@en .
+
+
+###  http://www.wikidata.org/entity/Q744038
+<http://www.wikidata.org/entity/Q744038> rdf:type owl:NamedIndividual ,
+                 <http://www.wikidata.org/entity/Q659563> ;
+    rdfs:label "RPG"@en .
+
+
+###  http://www.wikidata.org/entity/Q472055
+<http://www.wikidata.org/entity/Q472055> rdf:type owl:NamedIndividual ,
+                 <http://www.wikidata.org/entity/Q659563> ;
+    rdfs:label "Strategy"@en .
+
+
+###  http://www.wikidata.org/entity/Q1610017
+<http://www.wikidata.org/entity/Q1610017> rdf:type owl:NamedIndividual ,
+                 <http://www.wikidata.org/entity/Q659563> ;
+    rdfs:label "Simulation"@en .
+
+
+###  http://www.wikidata.org/entity/Q1050023
+<http://www.wikidata.org/entity/Q1050023> rdf:type owl:NamedIndividual ,
+                 <http://www.wikidata.org/entity/Q659563> ;
+    rdfs:label "Casual"@en .
+
+
+###  http://www.wikidata.org/entity/Q860750
+<http://www.wikidata.org/entity/Q860750> rdf:type owl:NamedIndividual ,
+                 <http://www.wikidata.org/entity/Q659563> ;
+    rdfs:label "Racing"@en .
+
+
+###  http://www.wikidata.org/entity/Q868217
+<http://www.wikidata.org/entity/Q868217> rdf:type owl:NamedIndividual ,
+                 <http://www.wikidata.org/entity/Q659563> ;
+    rdfs:label "Sports"@en .
+
+
+###  http://www.wikidata.org/entity/Q862490
+<http://www.wikidata.org/entity/Q862490> rdf:type owl:NamedIndividual ,
+                 <http://www.wikidata.org/entity/Q659563> ;
+    rdfs:label "Massively Multiplayer"@en .
+
+
+###  http://www.wikidata.org/entity/Q1406
+<http://www.wikidata.org/entity/Q1406> rdf:type owl:NamedIndividual ,
+                 <http://www.wikidata.org/entity/Q9135> ;
+    rdfs:label "Windows"@en .
+
+
+###  http://www.wikidata.org/entity/Q14116
+<http://www.wikidata.org/entity/Q14116> rdf:type owl:NamedIndividual ,
+                 <http://www.wikidata.org/entity/Q9135> ;
+    rdfs:label "macOS"@en .
+
+
+###  http://www.wikidata.org/entity/Q388
+<http://www.wikidata.org/entity/Q388> rdf:type owl:NamedIndividual ,
+                 <http://www.wikidata.org/entity/Q9135> ;
+    rdfs:label "Linux"@en .
+
 
 ###  https://w3id.org/FAIR-course-UT/2026/group02/ont#EarlyAccess
 :EarlyAccess rdf:type owl:NamedIndividual ,

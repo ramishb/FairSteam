@@ -26,11 +26,11 @@
     dash:editor dash:URIEditor ;
   ], [
     sh:path dcat:downloadURL ;
-    sh:name "download URL (W3ID)" ;
+    sh:name "download URL (W3ID or Kaggle)" ;
     sh:nodeKind sh:IRI ;
     sh:minCount 1 ;
     sh:maxCount 1 ;
-    sh:pattern "^https://w3id.org/FAIR-course-UT/" ;
+    sh:pattern "^https://(w3id.org/FAIR-course-UT/|www.kaggle.com/)" ;
     dash:editor dash:URIEditor ;
   ], [
     sh:path dcat:mediaType ;
